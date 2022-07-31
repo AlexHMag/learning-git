@@ -27,7 +27,11 @@ lista = []
 elemento = None
 
 while elemento != "Q":
+<<<<<<< HEAD
     elemento = input("¿Que desea comprar, sugiero que compres leche? ([Q] para salir)\n")
+=======
+    elemento = input("¿Que desea comprar, mozo del senioh? ([Q] para salir)\n")
+>>>>>>> 620b906e622fe5f1f36bdb15ad0567e4c0df347a
     if elemento in lista:
         print("{} ya esta en la lista".format(elemento))
     else:
